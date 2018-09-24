@@ -1,0 +1,25 @@
+<div class="user-info">
+  <div class="image">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71zjy0nn2wL.png">
+  </div>
+  <div class="name">Vugar Abdullayev</div>
+  <div class="title">Angular Developer</div>
+</div>
+<div class="modules">
+  <div class="module-list">
+    <a [routerLink]="['/home/blogs']" routerLinkActive="active" class="module">Blogs</a>
+    <a [routerLink]="['/home/about']" routerLinkActive="active" class="module">About Me</a>
+    <a [routerLink]="['/home/contact']" routerLinkActive="active" class="module">Contact Me</a>
+  </div>
+</div>
+<div class="social-buttons">
+  <a class="icon facebook" href="https://www.facebook.com/Vuqar.005">
+    <fa-icon [icon]="faFacebook"></fa-icon>
+  </a>
+  <a class="icon github" href="https://github.com/vugar005">
+    <fa-icon [icon]="faGithub"></fa-icon>
+  </a>
+  <a class="icon twitter" href="https://twitter.com/Vugar005">
+    <fa-icon [icon]="faTwitter"></fa-icon>
+  </a>
+</div>

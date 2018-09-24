@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {
+  font-family: "LP Bambus";
+  src: url('./assets//fonts/LPBambus/e2c812d3302473831ceb066938fb9b1f.woff');
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none!important;
+}
